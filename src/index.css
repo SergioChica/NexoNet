@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.NameCorporation {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: clamp(28px, 6vw, 36px);
+}
 
 .image-container {
     width: clamp(6rem, 8vw + 2rem, 7rem);
