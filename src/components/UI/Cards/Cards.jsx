@@ -6,8 +6,6 @@ import { FaInstagram, FaInstagramSquare } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { CiLinkedin } from "react-icons/ci";
 
-
-
 export const Cards = () => {
   return (
     <div className='w-[24rem] md:w-[16rem] h-[90%] bg-[#1f1f1f] text-white p-[40px] rounded-2xl flex flex-col items-center  '>
