@@ -1,5 +1,5 @@
 import React from 'react'
-import { Cards } from '../../Cards/Cards'
+import { Cards } from '../../UI/Cards/Cards'
 
 export const Main = () => {
   return (

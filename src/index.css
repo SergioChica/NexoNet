@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.image-container {
+    width: clamp(6rem, 8vw + 2rem, 7rem);
+    height: clamp(6rem, 8vw + 2rem, 7rem);
+}
+
+.Title {
+    font-size: clamp(18px, 2vw, 22px);
+    text-align: center;
+}
+
+.textCards {
+    font-size: clamp(14px, 2vw, 18px);
+    text-align: center;
+}
+
+.normalText {
+    font-size: clamp(11px, 2vw, 17px);
+    text-align: center;
+}
